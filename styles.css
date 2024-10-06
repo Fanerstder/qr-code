@@ -1,0 +1,70 @@
+:root {
+          --White: hsl(0, 0%, 100%);
+          --Slate-300: hsl(212, 45%, 89%);
+          --Slate-500: hsl(216, 15%, 48%);
+          --Slate-900: hsl(218, 44%, 22%);
+      }      
+      body{
+          
+          margin: 0;
+          padding: 0;
+          display:flex;   
+          flex-direction:column; 
+          justify-content:center;
+          align-items:center;   
+               
+           }
+      .container-card{
+          width:1440px;
+          height: 100vh;
+          display:grid;  
+          text-align:center;
+          place-items:center; 
+          text-align :center;
+          margin: auto ;
+          padding:;
+          background:var(--Slate-300); 
+        }
+        .card-qr{
+            width:360px;
+            height: 600px;
+            margin:auto;      
+            background:var(--White);     
+            border-radius :20px;
+        }
+      .card-qr img{
+          width:90%;
+          border-radius:15px;   
+          margin-top: 20px;  
+          }
+      .card-qr h1{
+          font-size :20px;  
+          font-family :"Outfit", sans-serif;
+          font-weight :700;       
+          }
+      .card-qr p{
+          font-size:15px;
+          font-family :"Outfit", sans-serif;
+          font-weight :400;                   
+         }
+          .paragraph{
+              width:80%;
+              padding:20px;      
+              margin: 0 auto;    
+           }   
+          .attribution { 
+              font-size: 11px; 
+              text-align: center; 
+              }
+          .attribution a { 
+              color: hsl(228, 45%, 44%); 
+              text-decoration :none;
+              }
+    
+    @media(max-width:768px){
+        
+        .container-card{
+            width: 100%;
+            height: 100vh;
+        }
+    }
